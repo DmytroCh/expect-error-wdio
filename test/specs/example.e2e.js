@@ -11,7 +11,8 @@ describe('My Login application', () => {
             'You logged into a secure area!');*/
         let alert = await SecurePage.flashAlert;
         alert = await alert.getText();
-        await expect(alert).stringContaining("logged");
+        //await expect(alert).stringContaining("logged");
+        await expect(alert).toEqual(expect.stringContaining("logged"));
     });
 });
 
