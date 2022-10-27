@@ -4,4 +4,4 @@
 
 ## Issue
 
-![Alt text](https://github.com/DmytroCh/expect-error-wdio/logs/logs.png "Issue")
+![Alt text](https://github.com/DmytroCh/expect-error-wdio/blob/main/logs/logs.png)
